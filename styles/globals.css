@@ -1,0 +1,33 @@
+/* light model */
+:root {
+  --background-color: white;
+  --color:black;
+}
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color:var(--background-color);
+  color: var(--color);
+}
+
+a {
+  color: darkred;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+/* ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: inline;
+}
+
+li:not(:first-child) {
+  margin-left:0.75rem;
+} */
